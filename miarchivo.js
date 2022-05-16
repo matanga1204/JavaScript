@@ -32,3 +32,19 @@ while (entrada != 'ESC') {
     }
     entrada= prompt("ingresar un nombre");
 }
+
+console.log("*--------------*")
+
+const arrayConst = ["Mateo",22,true]
+console.log(arrayConst)
+
+console.log("*-----------*")
+
+const arrayNumeros = [1,2,3,4,5]
+for(let i = 0; i < 5; i++){
+    console.log(arrayNumeros[i])
+}
+
+const arrayposiciones = ["primer posicion","segunda posicion","tercer posicion"]
+arrayposiciones.splice(1,1)
+console.log(arrayposiciones)
